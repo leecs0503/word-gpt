@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "word-gpt"
+version = "0.1.0"
+description = ""
+authors = ["lee changsu <leecs0503@naver.com>"]
+readme = "README.md"
+packages = [{include = "word_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+ipykernel = "^6.28.0"
+pyright = "^1.1.344"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
